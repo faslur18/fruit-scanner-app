@@ -21,7 +21,7 @@ train_dataset = tf.keras.utils.image_dataset_from_directory(
 class_names = train_dataset.class_names
 
 # Nutrition API key (replace with your actual key) from USDA API(FoodData Central)
-USDA_API_KEY = 'hIUDFdtxgQ1taHWz2mC1UFNVbydV1J5nAIGdiGxW'
+USDA_API_KEY = 'your usda_api_key_here'
 
 def prepare_image(image_data, target_size):
     img = Image.open(io.BytesIO(image_data)).convert("RGB")
