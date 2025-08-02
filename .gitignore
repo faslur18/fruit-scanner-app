@@ -1,0 +1,18 @@
+# Python/Backend
+venv/
+__pycache__/
+*.pyc
+
+# Node.js/Frontend
+node_modules/
+.expo/
+npm-debug.log
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# IDE files
+.vscode/
+.idea/
